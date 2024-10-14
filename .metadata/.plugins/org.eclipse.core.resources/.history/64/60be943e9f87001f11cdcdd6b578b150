@@ -1,0 +1,92 @@
+package com.vima.model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class MovieAddData {
+	private int id;
+	private String movieName;
+	private String language;
+	private long budget;
+	private String director;
+	private String maleLead;
+	private String femaleLead;
+	
+	
+	///////////////////////////////////////////////////////////////////
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getMovieName() {
+		return movieName;
+	}
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+	public String getLanguage() {
+		return language;
+	}
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+	public long getBudget() {
+		return budget;
+	}
+	public void setBudget(long budget) {
+		this.budget = budget;
+	}
+	public String getDirector() {
+		return director;
+	}
+	public void setDirector(String director) {
+		this.director = director;
+	}
+	public String getMaleLead() {
+		return maleLead;
+	}
+	public void setMaleLead(String maleLead) {
+		this.maleLead = maleLead;
+	}
+	public String getFemaleLead() {
+		return femaleLead;
+	}
+	public void setFemaleLead(String femaleLead) {
+		this.femaleLead = femaleLead;
+	}
+	/////////////////////////////////////////////////////////////////
+	public MovieAddData() {
+		super();
+	}
+	////////////////////////////////////////////////////////////////
+	@Override
+	public String toString() {
+		return "MovieAddData [id=" + id + ", movieName=" + movieName + ", language=" + language + ", budget=" + budget
+				+ ", director=" + director + ", maleLead=" + maleLead + ", femaleLead=" + femaleLead + "]";
+	}
+	
+	public int addResult() throws Exception
+	{
+		try {
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/movie_mock_database","root","V_!m@L2!!2");
+			
+			String s="insert into movie values(?,?,?,?,?,?,?);";
+			PreparedStatement pstmt=con.prepareStatement(s);
+			
+			pstmt.setInt(1, id);
+			pstmt.setString(2, )
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+		return 0;
+	}
+	
+	
+}

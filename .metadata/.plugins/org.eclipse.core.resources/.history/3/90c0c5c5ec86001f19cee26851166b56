@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+	
+	<table>
+	
+		<tr>
+			<td>Enter id</td>
+			<td><input type="text" name="id" placeholder="enter id"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter name</td>
+			<td><input type="text" name="name" placeholder="enter name"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter marks 1</td>
+			<td><input type="text" name="marks1" placeholder="enter marks 1"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter marks 2</td>
+			<td><input type="text" name="marks2" placeholder="enter marks 2"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter marks 3</td>
+			<td><input type="text" name="marks3" placeholder="enter marks 3"></td>
+		</tr>
+		
+	
+	</table>
+	
+	</form>
+</body>
+</html>

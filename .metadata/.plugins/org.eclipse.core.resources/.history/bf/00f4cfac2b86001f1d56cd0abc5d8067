@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<table style="margin-left:40%;margin-top:20%;background-color:crimson; font-size:10px">
+	<form action="/addition/Add">
+		<tr>
+			<td>First number</td>
+			<td><input type="text" name="firstNumber" placeholder="enter first number"></td>
+		</tr>
+		<tr>
+			<td>Second number</td>
+			<td><input type="text" name="secondNumber" placeholder="enter second number"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Add"></td>
+		</tr>
+	</form>
+	</table>
+</body>
+</html>

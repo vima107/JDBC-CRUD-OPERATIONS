@@ -1,0 +1,28 @@
+package com.qn.model;
+
+public class Student {
+	private int id;
+	private String name;
+	private int marks1;
+	private int marks2;
+	private int marks3;
+	
+	/////////////////////////////////////////////////////////////////////////////
+	public Student(int id, String name, int marks1, int marks2, int marks3) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.marks1 = marks1;
+		this.marks2 = marks2;
+		this.marks3 = marks3;
+	}
+	public Student() {
+		super();
+	}
+	/////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	
+}

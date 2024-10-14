@@ -1,0 +1,30 @@
+
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class GetResult extends HttpServlet {
+	@Override
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		try {
+			int id=Integer.parseInt(request.getParameter("id"));
+			// to load the driver select the folder->build path->add external jar(add mysqlDriverConnector and apply)->deployee asseblye->add->(add the mysqldriver connector)
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/july_24","root","V_!m@L2!!2");
+			
+			
+		}
+		catch(Exception e){
+			
+		}
+	}
+	
+}
