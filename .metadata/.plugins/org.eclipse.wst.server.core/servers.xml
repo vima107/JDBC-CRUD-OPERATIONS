@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="12">
-    <list key="modules" value0="my-first-app::org.eclipse.jst.j2ee.server:my-first-app::jst.web::2.4" value1="my-second-project::org.eclipse.jst.j2ee.server:my-second-project::jst.web::2.4" value2="my-third-project::org.eclipse.jst.j2ee.server:my-third-project::jst.web::2.4" value3="addition::org.eclipse.jst.j2ee.server:addition::jst.web::2.4" value4="get-result::org.eclipse.jst.j2ee.server:get-result::jst.web::2.4" value5="add-result::org.eclipse.jst.j2ee.server:add-result::jst.web::2.4" value6="add-result-mvc::org.eclipse.jst.j2ee.server:add-result-mvc::jst.web::2.4" value7="movie-database-crud-operation-mvc::org.eclipse.jst.j2ee.server:movie-database-crud-operation-mvc::jst.web::2.4" value8="get-result-mvc::org.eclipse.jst.j2ee.server:get-result-mvc::jst.web::2.4"/>
-  </server>
-</servers>

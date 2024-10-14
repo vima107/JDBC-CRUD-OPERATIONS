@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;jdbc-maven-crud&apos;" deleteContents="true" description="Delete resource &apos;jdbc-maven-crud&apos;" element1="/jdbc-maven-crud" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1728297919688"/>&#x0A;<refactoring comment="Delete resource &apos;my-second-app&apos;" deleteContents="true" description="Delete resource &apos;my-second-app&apos;" element1="/my-second-app" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1728386038310"/>
-</session>

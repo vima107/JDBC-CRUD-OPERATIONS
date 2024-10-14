@@ -1,6 +1,0 @@
-package com.qn.model;
-
-public class Student {
-	private int id;
-	
-}
